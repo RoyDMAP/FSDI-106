@@ -21,3 +21,4 @@ window.onload = sayHello;
 //Put is used to replace eveything
 //SPA = Single Page App
 //API = Application Programming Interface
+//Latest updae
