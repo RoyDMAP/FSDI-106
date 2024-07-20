@@ -17,8 +17,8 @@ window.onload = sayHello;
 //Post = Write something to the server
 //CRUD = Create  Read  Update  Delete
 //Time is very important, which is related to the size of files used in each project
-//Patch is used to update files
-//Put is used to replace eveything
+//Patch = is used to update files
+//Put = is used to replace eveything
 //SPA = Single Page App
 //API = Application Programming Interface
-//Latest updae
+//Latest update

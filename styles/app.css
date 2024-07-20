@@ -1,0 +1,49 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #87CEEB; /* Sky Blue */
+    background-image: 
+        radial-gradient(circle at 10% 20%, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.1) 5%, transparent 5%),
+        radial-gradient(circle at 90% 80%, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.1) 5%, transparent 5%);
+    background-size: 60px 60px;
+    color: #2C3E50; /* Dark Blue */
+}
+h1 {
+    color: #FF6B6B; /* Coral */
+    text-align: center;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+main {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(44, 62, 80, 0.1);
+    overflow: hidden;
+    margin-top: 20px;
+    height: 100vh;
+    
+}
+#list {
+    flex: 2;
+    padding: 20px;
+    background-color: rgba(255, 234, 167, 0.5); /* Light Yellow */
+}
+#form {
+    flex: 1;
+    padding: 20px;
+    background-color: rgba(129, 236, 236, 0.5); /* Light Cyan */    
+}
+.section {
+    margin-bottom: 20px;
+}
+.section h2 {
+    color: #4CAF50; /* Green */
+    border-bottom: 2px solid #FFA726; /* Orange */
+    padding-bottom: 5px;
+}
+.section p {
+    color: #2C3E50; /* Dark Blue */
+}
